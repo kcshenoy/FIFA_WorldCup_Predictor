@@ -1,0 +1,13 @@
+# Python virtual environment (created directly in repo root)
+bin/
+lib/
+include/
+pyvenv.cfg
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+
+# Too large for GitHub (>100MB)
+player_performances.txt
