@@ -8,6 +8,3 @@ __pycache__/
 
 # OS
 .DS_Store
-
-# Too large for GitHub (>100MB)
-player_performances.txt

@@ -13,88 +13,43 @@ features:
    teammates with one another at a top-5-league club, capturing pre-existing
    on-field familiarity within the international squad.
 
+Both features live in `team_tournament_features.csv`, one row per
+`(tournament_id, team_id)`.
+
 ## 2. Data sources
 
 | File | Role | Grain |
 |---|---|---|
-| `results.csv` | International match results, 1872–present | 1 row per match |
-| `squads.csv` | World Cup roster entries, 1930–2022 (men's + women's) | 1 row per player per tournament |
-| `players.csv` | Player biographical data (name, birth date) | 1 row per player, `P-XXXXX` id |
-| `player_performances.txt` | Club season-by-season stats (competition, team, appearances) | 1 row per player per club season per competition, numeric id |
-| `player_profiles.csv` | Player biographical data (name, birth date), numeric id | 1 row per player |
+| `world_cup_top5_league_players_2002.csv` | Hand-compiled World Cup roster + club assignment, manually classified into a top-5 league (or none) | 1 row per player per tournament |
+| `team_tournament_features.csv` | Output feature table (also the base file that manual rebuilds read and patch) | 1 row per team per tournament |
 
-The key obstacle: `squads.csv`/`players.csv` identify players with a `P-XXXXX`
-id and a name, while `player_performances.txt` — which is the only source of
-actual club/league history — identifies players with an unrelated numeric id
-and **no name field at all**. The two id spaces do not overlap. `player_profiles.csv`
-was the bridge: it carries the same numeric id used in `player_performances.txt`
-alongside a player name and date of birth, which can be matched against
-`players.csv`.
+Earlier work also used an automated crosswalk pipeline (`build_features.py`)
+driven by `results.csv`, `squads.csv`, `players.csv`, `player_performances.txt`,
+and `player_profiles.csv` to compute 2006–2022 automatically. Those files and
+that script have since been removed from the repo (they were large — over
+150MB combined — and the project has moved to manually-compiled per-tournament
+CSVs instead, per Section 6's linkage-rate findings). The 2006–2022 rows they
+produced are still present in `team_tournament_features.csv`, but that
+methodology is no longer runnable from this repo; see Section 6 for a summary
+of how those rows were originally derived.
 
-## 3. Cross-dataset player linkage
+## 3. Defining "top-5 league"
 
-We built a crosswalk between the two id systems by joining on **normalized
-full name + exact date of birth**:
+The five target leagues:
 
-1. Names were transliterated to ASCII (`unidecode`) and lowercased, with
-   punctuation stripped, to absorb accent/diacritic mismatches (e.g. "Luka
-   Modrić" vs. "Luka Modric").
-2. A handful of players in `players.csv` use a single mononym (e.g.
-   Brazilian players like "Neymar"), stored with a placeholder
-   `given_name = "not applicable"`; these were detected and normalized to use
-   only the surname field before matching, otherwise they would never match.
-3. Records were joined on `(name_key, date_of_birth)` — a combination that is
-   effectively unique globally. Verified directly against known players
-   (e.g. Lionel Messi: `P-14758` in `players.csv` ↔ numeric id `28003` in
-   `player_profiles.csv`, both listing DOB `1987-06-24`, with performance rows
-   correctly showing his Barcelona/La Liga career).
-
-**Match-rate caveat:** this join only succeeds if the player exists in
-`player_profiles.csv`, which is a transfermarkt-style scrape with materially
-weaker historical depth before the 1990s. We validated this directly by
-confirming that even legendary, extensively-documented 1980s players (Diego
-Maradona, Michel Platini, Franz Beckenbauer) are entirely absent from the
-file — proof that early gaps reflect **source-data coverage**, not football
-history (foreign-player counts in top leagues were lower pre-Bosman (1995) but
-not to the degree implied by a ~0% match rate). Match rate climbs from 0%
-(pre-1986) to ~79% by the 2022 World Cup. **For this reason, only World Cups
-from 1998 onward are retained in the final feature table.**
-
-## 4. Defining "top-5 league"
-
-Rather than match on the free-text `competition_name` field (which is
-ambiguous — dozens of countries have a competition literally named "Premier
-League" or "Serie A"), we matched on the structured `competition_id` code,
-which is stable across name changes (e.g. Ligue 1 was historically labeled
-"Division 1" under the same id):
-
-| League | `competition_id` |
+| League | Country |
 |---|---|
-| Premier League (England) | `GB1` |
-| LaLiga (Spain) | `ES1` |
-| Serie A (Italy) | `IT1` |
-| Bundesliga (Germany) | `L1` |
-| Ligue 1 (France) | `FR1` |
+| Premier League | England |
+| La Liga | Spain |
+| Serie A | Italy |
+| Bundesliga | Germany |
+| Ligue 1 | France |
 
-## 5. Determining the relevant club season
-
-European club seasons are labeled by split years (e.g. `22/23`). To decide
-which season should be treated as "current" for a given World Cup, we used the
-tournament's actual start month (derived from the earliest match date per
-year in `results.csv`, tournament == `FIFA World Cup`):
-
-```
-if start_month <= 7:      # most WCs: June/July, after the season just ended
-    season = f"{(year-1)%100:02d}/{year%100:02d}"
-else:                      # e.g. Qatar 2022 (November): season in progress
-    season = f"{year%100:02d}/{(year+1)%100:02d}"
-```
-
-## 6. Feature formulas
+## 4. Feature formulas
 
 Let `S` be a national squad (one team, one tournament), and for each player
 `p` in `S`, let `clubs(p)` be the set of club teams `p` appeared for in a
-top-5 league during the tournament's target season (from Section 5).
+top-5 league during the tournament's target season.
 
 **Top-5-league count:**
 
@@ -117,33 +72,68 @@ members from `S` playing there that season, and `C(n_c, 2)` is the number of
 unique pairs among them. For example, if 6 of a country's players were all at
 the same club, that club alone contributes `C(6,2) = 15` connectivity points.
 
-## 7. Automated pipeline (World Cups 1998–2022)
+## 5. Manual rebuild of the 2002 World Cup
 
-For tournaments already covered by `squads.csv` (all men's World Cups,
-1930–2022; retained subset 1998–2022 per the coverage caveat above), the two
-features were computed with a fully automated `pandas` pipeline
-(`build_features.py`):
+2002's automated linkage rate (42.7%, see Section 6) was low enough to
+materially understate `top5_league_count`/`connectivity` for that tournament
+(e.g. Italy's automated `top5_league_count` was 20 vs. 23 once manually
+verified). Rather than drop 2002 like 1998, its squads were manually
+re-sourced and re-classified, following the same manual methodology later
+reused for 2026 (Section 7):
 
-1. Load and normalize `players.csv`, `player_profiles.csv`; build the id
-   crosswalk (Section 3).
-2. Filter `squads.csv` to men's tournaments, map each `tournament_id` to its
-   target club season (Section 5).
-3. Filter `player_performances.txt` to rows where `competition_id` is in the
-   top-5 set; join squad rosters to this filtered performance table on
-   `(profile_id, season_name)`.
-4. Group and aggregate per `(tournament_id, team_id)` using the formulas in
-   Section 6.
-5. Write the result to `team_tournament_features.csv`, and (optionally) join
-   it back onto `results.csv` for rows where `tournament == "FIFA World Cup"`.
+1. **Roster + club data**: compiled by hand into
+   `world_cup_top5_league_players_2002.csv`, one row per player per squad,
+   with columns `World Cup, Country, Player, Position, Club, Club Association,
+   Top-5 League, Counted?` — `Top-5 League` names the specific league (or is
+   blank) and `Counted?` is the boolean top-5-league flag used downstream.
+2. **Feature computation** (`rebuild_2002_features.py`): filter to
+   `Counted? == True`, then apply the Section 4 formulas directly — group by
+   `Country` for `top5_league_count` (distinct counted players) and by
+   `(Country, Club)` for `connectivity` (`C(n_c, 2)` summed per country).
+   Countries with zero counted players (e.g. China, Saudi Arabia in 2002) are
+   reindexed to 0/0 rather than silently dropped by the groupby.
+3. **Merge**: these 32 rows replace the WC-2002 `top5_league_count`/
+   `connectivity` values in `team_tournament_features.csv` (matched on
+   `team_name`, with a manual alias for `China PR` → `China`); all other years
+   are left untouched, and WC-1998 rows are dropped entirely.
 
-This produced 224 team/tournament rows (32 teams × 7 tournaments, 1998–2022),
-with an overall player-linkage rate of 61% within that window.
+## 6. History: automated pipeline (World Cups 2006–2022, now removed)
 
-## 8. Manual data collection for the 2026 World Cup
+Before switching to manually-compiled rosters, `top5_league_count` and
+`connectivity` for 2006–2022 were computed by joining World Cup squads to
+each player's club/league history for the season immediately surrounding the
+tournament. The key obstacle was that squads were identified with one id
+system (name + birth date) while club/league history used a completely
+separate numeric id with no name field; a crosswalk was built by joining the
+two on normalized full name + exact birth date.
 
-`squads.csv` does not yet include the 2026 World Cup (the dataset predates
-the tournament), so its 48 teams' rosters had to be sourced independently
-rather than through the structured pipeline:
+That crosswalk's match rate is the reason 1998 and 2002 aren't part of the
+automated output — historical coverage was materially weaker for older
+tournaments:
+
+| World Cup | Linkage rate |
+|---|---|
+| 1998 | 29.6% |
+| 2002 | 42.7% |
+| 2006 | 55.4% |
+| 2010 | 66.3% |
+| 2014 | 73.4% |
+| 2018 | 73.8% |
+| 2022 | 81.6% |
+
+1998 was dropped entirely, and 2002 was replaced with a manually-compiled
+roster (Section 5). 2006–2022 kept the automated pipeline's output as-is;
+those 160 rows (32 teams × 5 tournaments) are still in
+`team_tournament_features.csv` today, but the pipeline that produced them
+(`build_features.py` and its five input files) has since been deleted from
+the repo — see Section 2. 2006's own 55.4% linkage rate means it's a
+candidate for the same manual treatment as 2002, if/when that data is
+compiled.
+
+## 7. Manual data collection for the 2026 World Cup
+
+`squads.csv` never included the 2026 World Cup (that dataset predates the
+tournament), so its 48 teams' rosters had to be sourced independently:
 
 1. **Roster source**: Wikipedia's "2026 FIFA World Cup squads" article. The
    combined page is large enough that a single fetch truncates before
@@ -157,13 +147,13 @@ rather than through the structured pipeline:
    Burnley, and Sunderland promoted to the Premier League; Saint-Étienne
    remaining in Ligue 2 after losing its promotion playoff) to correctly
    classify borderline clubs.
-3. **Feature computation**: the same formulas from Section 6 were applied by
+3. **Feature computation**: the same formulas from Section 4 were applied by
    hand to each team's classified roster — grouping players by club and
    summing `C(n_c, 2)` for any club with 2+ international teammates.
 4. **Team id assignment**: the 43 returning nations were matched to their
-   existing `team_id` from `squads.csv` for continuity; the 5 debutant
-   nations in the expanded 48-team format (Curaçao, Cape Verde, Jordan, DR
-   Congo, Uzbekistan) received newly assigned sequential ids.
+   existing `team_id` for continuity; the 5 debutant nations in the expanded
+   48-team format (Curaçao, Cape Verde, Jordan, DR Congo, Uzbekistan)
+   received newly assigned sequential ids.
 5. Results were appended to `team_tournament_features.csv` as 48 additional
    rows (`tournament_id = "WC-2026"`).
 
@@ -175,18 +165,22 @@ lesser-documented domestic clubs — though this does not affect their
 connectivity scores, since none of these squads had any top-5-league
 clustering regardless.
 
-## 9. Known limitations
+## 8. Known limitations
 
-- **Historical coverage**: pre-1998 World Cups are excluded because the
-  underlying player-profile source has near-zero coverage of that era,
-  producing artificially deflated feature values rather than a genuine
-  historical signal.
+- **Historical coverage**: pre-2002 World Cups are excluded because the
+  underlying player-profile source used by the now-removed automated pipeline
+  had near-zero/low coverage of that era (Section 6), producing artificially
+  deflated feature values rather than a genuine historical signal. 2002 is
+  retained only because it was manually rebuilt (Section 5).
 - **Multi-club-season edge case**: a player transferred mid-season between two
-  top-5-league clubs will be counted in both clubs' groups, very slightly
-  inflating connectivity in rare cases.
-- **2026 data provenance**: unlike 1998–2022 (fully reproducible from the
-  provided CSVs), the 2026 rows were built from a one-time manual/AI-assisted
-  web research pass and are not re-derivable by re-running
-  `build_features.py`; they should be treated as a fixed, hand-verified
-  supplement to the automated pipeline rather than part of its regular
-  output.
+  top-5-league clubs would have been counted in both clubs' groups under the
+  old automated pipeline (2006–2022), very slightly inflating connectivity in
+  rare cases. The manual rosters (2002, 2026) record a player's single
+  end-of-season/tournament-time club, so this edge case doesn't apply to them.
+- **Non-reproducibility**: 2002 and 2026 were built from one-time
+  manual/AI-assisted research passes (`rebuild_2002_features.py` and a manual
+  pass respectively) and 2006–2022 was built from a pipeline whose source
+  files no longer exist in this repo (Section 2). None of
+  `team_tournament_features.csv` can currently be regenerated from scratch —
+  it should be treated as a fixed table, hand-verified where noted, rather
+  than the output of a rerunnable build step.
