@@ -1,0 +1,737 @@
+World Cup,Country,Player,Position,Club,Club Association,Top-5 League,Counted?
+2002,Denmark,Thomas Sørensen,GK,Sunderland,England,Premier League,TRUE
+2002,Denmark,Stig Tøfting,MF,Bolton Wanderers,England,Premier League,TRUE
+2002,Denmark,René Henriksen,DF,Panathinaikos,Greece,,FALSE
+2002,Denmark,Martin Laursen,DF,Milan,Italy,Serie A,TRUE
+2002,Denmark,Jan Heintze (c),DF,PSV Eindhoven,Netherlands,,FALSE
+2002,Denmark,Thomas Helveg,DF,Milan,Italy,Serie A,TRUE
+2002,Denmark,Thomas Gravesen,MF,Everton,England,Premier League,TRUE
+2002,Denmark,Jesper Grønkjær,MF,Chelsea,England,Premier League,TRUE
+2002,Denmark,Jon Dahl Tomasson,FW,Feyenoord,Netherlands,,FALSE
+2002,Denmark,Martin Jørgensen,MF,Udinese,Italy,Serie A,TRUE
+2002,Denmark,Ebbe Sand,FW,Schalke 04,Germany,Bundesliga,TRUE
+2002,Denmark,Niclas Jensen,DF,Manchester City,England,,FALSE
+2002,Denmark,Steven Lustü,DF,Lyn,Norway,,FALSE
+2002,Denmark,Claus Jensen,MF,Charlton Athletic,England,Premier League,TRUE
+2002,Denmark,Jan Michaelsen,MF,Panathinaikos,Greece,,FALSE
+2002,Denmark,Peter Kjær,GK,Aberdeen,Scotland,,FALSE
+2002,Denmark,Christian Poulsen,MF,Copenhagen,Denmark,,FALSE
+2002,Denmark,Peter Løvenkrands,FW,Rangers,Scotland,,FALSE
+2002,Denmark,Dennis Rommedahl,MF,PSV Eindhoven,Netherlands,,FALSE
+2002,Denmark,Kasper Bøgelund,DF,PSV Eindhoven,Netherlands,,FALSE
+2002,Denmark,Peter Madsen,FW,Brøndby,Denmark,,FALSE
+2002,Denmark,Jesper Christiansen,GK,Vejle,Denmark,,FALSE
+2002,Denmark,Brian Steen Nielsen,MF,Malmö,Sweden,,FALSE
+2002,France,Ulrich Ramé,GK,Bordeaux,France,Ligue 1,TRUE
+2002,France,Vincent Candela,DF,Roma,Italy,Serie A,TRUE
+2002,France,Bixente Lizarazu,DF,Bayern Munich,Germany,Bundesliga,TRUE
+2002,France,Patrick Vieira,MF,Arsenal,England,Premier League,TRUE
+2002,France,Philippe Christanval,DF,Barcelona,Spain,La Liga,TRUE
+2002,France,Youri Djorkaeff,MF,Bolton Wanderers,England,Premier League,TRUE
+2002,France,Claude Makélélé,MF,Real Madrid,Spain,La Liga,TRUE
+2002,France,Marcel Desailly (c),DF,Chelsea,England,Premier League,TRUE
+2002,France,Djibril Cissé,FW,Auxerre,France,Ligue 1,TRUE
+2002,France,Zinedine Zidane,MF,Real Madrid,Spain,La Liga,TRUE
+2002,France,Sylvain Wiltord,FW,Arsenal,England,Premier League,TRUE
+2002,France,Thierry Henry,FW,Arsenal,England,Premier League,TRUE
+2002,France,Mikaël Silvestre,DF,Manchester United,England,Premier League,TRUE
+2002,France,Alain Boghossian,MF,Parma,Italy,Serie A,TRUE
+2002,France,Lilian Thuram,DF,Juventus,Italy,Serie A,TRUE
+2002,France,Fabien Barthez,GK,Manchester United,England,Premier League,TRUE
+2002,France,Emmanuel Petit,MF,Chelsea,England,Premier League,TRUE
+2002,France,Frank Leboeuf,DF,Marseille,France,Ligue 1,TRUE
+2002,France,Willy Sagnol,DF,Bayern Munich,Germany,Bundesliga,TRUE
+2002,France,David Trezeguet,FW,Juventus,Italy,Serie A,TRUE
+2002,France,Christophe Dugarry,FW,Bordeaux,France,Ligue 1,TRUE
+2002,France,Johan Micoud,MF,Parma,Italy,Serie A,TRUE
+2002,France,Grégory Coupet,GK,Lyon,France,Ligue 1,TRUE
+2002,Senegal,Tony Sylva,GK,Monaco,France,Ligue 1,TRUE
+2002,Senegal,Omar Daf,DF,Sochaux,France,Ligue 1,TRUE
+2002,Senegal,Pape Sarr,MF,Lens,France,Ligue 1,TRUE
+2002,Senegal,Pape Malick Diop,DF,Lorient,France,Ligue 1,TRUE
+2002,Senegal,Alassane N'Dour,DF,Saint-Étienne,France,,FALSE
+2002,Senegal,Aliou Cissé (c),DF,Montpellier,France,Ligue 1,TRUE
+2002,Senegal,Henri Camara,FW,Sedan,France,Ligue 1,TRUE
+2002,Senegal,Amara Traoré,FW,Gueugnon,France,,FALSE
+2002,Senegal,Souleymane Camara,FW,Monaco,France,Ligue 1,TRUE
+2002,Senegal,Khalilou Fadiga,MF,Auxerre,France,Ligue 1,TRUE
+2002,Senegal,El Hadji Diouf,FW,Lens,France,Ligue 1,TRUE
+2002,Senegal,Amdy Faye,MF,Auxerre,France,Ligue 1,TRUE
+2002,Senegal,Lamine Diatta,DF,Rennes,France,Ligue 1,TRUE
+2002,Senegal,Moussa N'Diaye,MF,Sedan,France,Ligue 1,TRUE
+2002,Senegal,Salif Diao,MF,Sedan,France,Ligue 1,TRUE
+2002,Senegal,Omar Diallo,GK,Olympique Khouribga,Morocco,,FALSE
+2002,Senegal,Ferdinand Coly,DF,Lens,France,Ligue 1,TRUE
+2002,Senegal,Pape Thiaw,FW,Strasbourg,France,,FALSE
+2002,Senegal,Papa Bouba Diop,MF,Lens,France,Ligue 1,TRUE
+2002,Senegal,Sylvain N'Diaye,MF,Lille,France,Ligue 1,TRUE
+2002,Senegal,Habib Beye,DF,Strasbourg,France,,FALSE
+2002,Senegal,Kalidou Cissokho,GK,Jeanne d'Arc,Senegal,,FALSE
+2002,Senegal,Makhtar N'Diaye,MF,Rennes,France,Ligue 1,TRUE
+2002,Uruguay,Fabián Carini,GK,Juventus,Italy,Serie A,TRUE
+2002,Uruguay,Gustavo Méndez,DF,Nacional,Uruguay,,FALSE
+2002,Uruguay,Alejandro Lembo,DF,Nacional,Uruguay,,FALSE
+2002,Uruguay,Paolo Montero (c),DF,Juventus,Italy,Serie A,TRUE
+2002,Uruguay,Pablo García,MF,Venezia,Italy,Serie A,TRUE
+2002,Uruguay,Darío Rodríguez,DF,Peñarol,Uruguay,,FALSE
+2002,Uruguay,Gianni Guigou,MF,Roma,Italy,Serie A,TRUE
+2002,Uruguay,Gustavo Varela,FW,Nacional,Uruguay,,FALSE
+2002,Uruguay,Darío Silva,FW,Málaga,Spain,La Liga,TRUE
+2002,Uruguay,Fabián O'Neill,MF,Perugia,Italy,Serie A,TRUE
+2002,Uruguay,Federico Magallanes,FW,Venezia,Italy,Serie A,TRUE
+2002,Uruguay,Gustavo Munúa,GK,Nacional,Uruguay,,FALSE
+2002,Uruguay,Sebastián Abreu,FW,Cruz Azul,Mexico,,FALSE
+2002,Uruguay,Gonzalo Sorondo,DF,Inter Milan,Italy,Serie A,TRUE
+2002,Uruguay,Nicolás Olivera,FW,Sevilla,Spain,La Liga,TRUE
+2002,Uruguay,Marcelo Romero,MF,Málaga,Spain,La Liga,TRUE
+2002,Uruguay,Mario Regueiro,MF,Racing Santander,Spain,,FALSE
+2002,Uruguay,Richard Morales,FW,Nacional,Uruguay,,FALSE
+2002,Uruguay,Joe Bizera,DF,Peñarol,Uruguay,,FALSE
+2002,Uruguay,Álvaro Recoba,MF,Inter Milan,Italy,Serie A,TRUE
+2002,Uruguay,Diego Forlán,FW,Manchester United,England,Premier League,TRUE
+2002,Uruguay,Gonzalo de los Santos,MF,Valencia,Spain,La Liga,TRUE
+2002,Uruguay,Federico Elduayen,GK,Peñarol,Uruguay,,FALSE
+2002,Paraguay,José Luis Chilavert (c),GK,Strasbourg,France,,FALSE
+2002,Paraguay,Francisco Arce,DF,Palmeiras,Brazil,,FALSE
+2002,Paraguay,Pedro Sarabia,DF,River Plate,Argentina,,FALSE
+2002,Paraguay,Carlos Gamarra,DF,AEK Athens,Greece,,FALSE
+2002,Paraguay,Celso Ayala,DF,River Plate,Argentina,,FALSE
+2002,Paraguay,Estanislao Struway,MF,Libertad,Paraguay,,FALSE
+2002,Paraguay,Richart Báez,FW,Olimpia,Paraguay,,FALSE
+2002,Paraguay,Guido Alvarenga,MF,Léon,Mexico,,FALSE
+2002,Paraguay,Roque Santa Cruz,FW,Bayern Munich,Germany,Bundesliga,TRUE
+2002,Paraguay,Roberto Acuña,MF,Zaragoza,Spain,La Liga,TRUE
+2002,Paraguay,Jorge Luis Campos,FW,Universidad Católica,Chile,,FALSE
+2002,Paraguay,Justo Villar,GK,Libertad,Paraguay,,FALSE
+2002,Paraguay,Carlos Paredes,MF,Porto,Portugal,,FALSE
+2002,Paraguay,Diego Gavilán,MF,Tecos,Mexico,,FALSE
+2002,Paraguay,Carlos Bonet,MF,Libertad,Paraguay,,FALSE
+2002,Paraguay,Gustavo Morínigo,MF,Libertad,Paraguay,,FALSE
+2002,Paraguay,Juan Carlos Franco,DF,Olimpia,Paraguay,,FALSE
+2002,Paraguay,Julio César Cáceres,DF,Olimpia,Paraguay,,FALSE
+2002,Paraguay,Daniel Sanabria,DF,Libertad,Paraguay,,FALSE
+2002,Paraguay,José Cardozo,FW,Toluca,Mexico,,FALSE
+2002,Paraguay,Denis Caniza,DF,Santos Laguna,Mexico,,FALSE
+2002,Paraguay,Ricardo Tavarelli,GK,Olimpia,Paraguay,,FALSE
+2002,Paraguay,Nelson Cuevas,FW,River Plate,Argentina,,FALSE
+2002,Slovenia,Marko Simeunovič,GK,Maribor,Slovenia,,FALSE
+2002,Slovenia,Goran Sankovič,DF,Slavia Prague,Czech Republic,,FALSE
+2002,Slovenia,Željko Milinovič,DF,JEF United Ichihara,Japan,,FALSE
+2002,Slovenia,Muamer Vugdalić,DF,Maribor,Slovenia,,FALSE
+2002,Slovenia,Marinko Galič,DF,Koper,Slovenia,,FALSE
+2002,Slovenia,Aleksander Knavs,DF,1. FC Kaiserslautern,Germany,Bundesliga,TRUE
+2002,Slovenia,Džoni Novak,MF,SpVgg Unterhaching,Germany,,FALSE
+2002,Slovenia,Aleš Čeh (c),MF,Grazer AK,Austria,,FALSE
+2002,Slovenia,Milan Osterc,FW,Hapoel Tel Aviv,Israel,,FALSE
+2002,Slovenia,Zlatko Zahovič*,MF,Benfica,Portugal,,FALSE
+2002,Slovenia,Miran Pavlin,MF,Porto,Portugal,,FALSE
+2002,Slovenia,Mladen Dabanovič,GK,Lokeren,Belgium,,FALSE
+2002,Slovenia,Mladen Rudonja,FW,Portsmouth,England,,FALSE
+2002,Slovenia,Saša Gajser,DF,Gent,Belgium,,FALSE
+2002,Slovenia,Rajko Tavčar,MF,1. FC Nürnberg,Germany,Bundesliga,TRUE
+2002,Slovenia,Senad Tiganj,FW,Olimpija Ljubljana,Slovenia,,FALSE
+2002,Slovenia,Zoran Pavlović,MF,Austria Wien,Austria,,FALSE
+2002,Slovenia,Milenko Ačimovič,FW,Red Star Belgrade,FR Yugoslavia,,FALSE
+2002,Slovenia,Amir Karić,DF,Maribor,Slovenia,,FALSE
+2002,Slovenia,Nastja Čeh,MF,Club Brugge,Belgium,,FALSE
+2002,Slovenia,Sebastjan Cimirotič,FW,Lecce,Italy,Serie A,TRUE
+2002,Slovenia,Dejan Nemec,GK,Club Brugge,Belgium,,FALSE
+2002,Slovenia,Spasoje Bulajič,DF,1. FC Köln,Germany,Bundesliga,TRUE
+2002,South Africa,Hans Vonk,GK,Heerenveen,Netherlands,,FALSE
+2002,South Africa,Cyril Nzama,DF,Kaizer Chiefs,South Africa,,FALSE
+2002,South Africa,Bradley Carnell,DF,VfB Stuttgart,Germany,Bundesliga,TRUE
+2002,South Africa,Aaron Mokoena,DF,Germinal Beerschot,Belgium,,FALSE
+2002,South Africa,Jacob Lekgetho,DF,Lokomotiv Moscow,Russia,,FALSE
+2002,South Africa,MacBeth Sibaya,MF,Jomo Cosmos,South Africa,,FALSE
+2002,South Africa,Quinton Fortune,MF,Manchester United,England,Premier League,TRUE
+2002,South Africa,Thabo Mngomeni,MF,Orlando Pirates,South Africa,,FALSE
+2002,South Africa,MacDonald Mukansi,MF,Lokomotiv Sofia,Bulgaria,,FALSE
+2002,South Africa,Bennett Mnguni,MF,Lokomotiv Moscow,Russia,,FALSE
+2002,South Africa,Jabu Pule,MF,Kaizer Chiefs,South Africa,,FALSE
+2002,South Africa,Teboho Mokoena,MF,St. Gallen,Switzerland,,FALSE
+2002,South Africa,Pierre Issa,DF,Watford,England,,FALSE
+2002,South Africa,Siyabonga Nomvethe,FW,Udinese,Italy,Serie A,TRUE
+2002,South Africa,Sibusiso Zuma,MF,Copenhagen,Denmark,,FALSE
+2002,South Africa,Andre Arendse,GK,Santos Cape Town,South Africa,,FALSE
+2002,South Africa,Benni McCarthy,FW,Porto,Portugal,,FALSE
+2002,South Africa,Delron Buckley,MF,VfL Bochum,Germany,,FALSE
+2002,South Africa,Lucas Radebe (c),DF,Leeds United,England,Premier League,TRUE
+2002,South Africa,Calvin Marlin,GK,Ajax Cape Town,South Africa,,FALSE
+2002,South Africa,Steven Pienaar,MF,Ajax,Netherlands,,FALSE
+2002,South Africa,Thabang Molefe,DF,Jomo Cosmos,South Africa,,FALSE
+2002,South Africa,George Koumantarakis,FW,Basel,Switzerland,,FALSE
+2002,Spain,Iker Casillas,GK,Real Madrid,Spain,La Liga,TRUE
+2002,Spain,Curro Torres,DF,Valencia,Spain,La Liga,TRUE
+2002,Spain,Juanfran,DF,Celta Vigo,Spain,La Liga,TRUE
+2002,Spain,Iván Helguera,MF,Real Madrid,Spain,La Liga,TRUE
+2002,Spain,Carles Puyol,DF,Barcelona,Spain,La Liga,TRUE
+2002,Spain,Fernando Hierro (c),DF,Real Madrid,Spain,La Liga,TRUE
+2002,Spain,Raúl,FW,Real Madrid,Spain,La Liga,TRUE
+2002,Spain,Rubén Baraja,MF,Valencia,Spain,La Liga,TRUE
+2002,Spain,Fernando Morientes,FW,Real Madrid,Spain,La Liga,TRUE
+2002,Spain,Diego Tristán,FW,Deportivo La Coruña,Spain,La Liga,TRUE
+2002,Spain,Javier de Pedro,MF,Real Sociedad,Spain,La Liga,TRUE
+2002,Spain,Albert Luque,FW,Mallorca,Spain,La Liga,TRUE
+2002,Spain,Ricardo,GK,Valladolid,Spain,La Liga,TRUE
+2002,Spain,David Albelda,MF,Valencia,Spain,La Liga,TRUE
+2002,Spain,Enrique Romero,DF,Deportivo La Coruña,Spain,La Liga,TRUE
+2002,Spain,Gaizka Mendieta,MF,Lazio,Italy,Serie A,TRUE
+2002,Spain,Juan Carlos Valerón,MF,Deportivo La Coruña,Spain,La Liga,TRUE
+2002,Spain,Sergio,MF,Deportivo La Coruña,Spain,La Liga,TRUE
+2002,Spain,Xavi,MF,Barcelona,Spain,La Liga,TRUE
+2002,Spain,Miguel Ángel Nadal,DF,Mallorca,Spain,La Liga,TRUE
+2002,Spain,Luis Enrique,MF,Barcelona,Spain,La Liga,TRUE
+2002,Spain,Joaquín,MF,Real Betis,Spain,La Liga,TRUE
+2002,Spain,Pedro Contreras,GK,Málaga,Spain,La Liga,TRUE
+2002,Brazil,Marcos,GK,Palmeiras,Brazil,,FALSE
+2002,Brazil,Cafu (c),DF,Roma,Italy,Serie A,TRUE
+2002,Brazil,Lúcio,DF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Brazil,Roque Júnior,DF,Milan,Italy,Serie A,TRUE
+2002,Brazil,Edmílson,DF,Lyon,France,Ligue 1,TRUE
+2002,Brazil,Roberto Carlos,DF,Real Madrid,Spain,La Liga,TRUE
+2002,Brazil,Ricardinho,MF,Corinthians,Brazil,,FALSE
+2002,Brazil,Gilberto Silva,MF,Atlético Mineiro,Brazil,,FALSE
+2002,Brazil,Ronaldo,FW,Inter Milan,Italy,Serie A,TRUE
+2002,Brazil,Rivaldo,MF,Barcelona,Spain,La Liga,TRUE
+2002,Brazil,Ronaldinho,MF,Paris Saint-Germain,France,Ligue 1,TRUE
+2002,Brazil,Dida,GK,Corinthians,Brazil,,FALSE
+2002,Brazil,Juliano Belletti,DF,São Paulo,Brazil,,FALSE
+2002,Brazil,Ânderson Polga,DF,Grêmio,Brazil,,FALSE
+2002,Brazil,Kléberson,MF,Atlético Paranaense,Brazil,,FALSE
+2002,Brazil,Júnior,DF,Parma,Italy,Serie A,TRUE
+2002,Brazil,Denílson,FW,Real Betis,Spain,La Liga,TRUE
+2002,Brazil,Vampeta,MF,Corinthians,Brazil,,FALSE
+2002,Brazil,Juninho Paulista,MF,Flamengo,Brazil,,FALSE
+2002,Brazil,Edílson,FW,Cruzeiro,Brazil,,FALSE
+2002,Brazil,Luizão,FW,Grêmio,Brazil,,FALSE
+2002,Brazil,Rogério Ceni,GK,São Paulo,Brazil,,FALSE
+2002,Brazil,Kaká,MF,São Paulo,Brazil,,FALSE
+2002,China PR,An Qi,GK,Dalian Shide,China PR,,FALSE
+2002,China PR,Zhang Enhua,DF,Dalian Shide,China PR,,FALSE
+2002,China PR,Yang Pu,DF,Beijing Guoan,China PR,,FALSE
+2002,China PR,Wu Chengying,DF,Shanghai Shenhua,China PR,,FALSE
+2002,China PR,Fan Zhiyi,DF,Dundee,Scotland,,FALSE
+2002,China PR,Shao Jiayi,MF,Beijing Guoan,China PR,,FALSE
+2002,China PR,Sun Jihai,DF,Manchester City,England,,FALSE
+2002,China PR,Li Tie,MF,Liaoning,China PR,,FALSE
+2002,China PR,Ma Mingyu (c),MF,Sichuan First City,China PR,,FALSE
+2002,China PR,Hao Haidong,FW,Dalian Shide,China PR,,FALSE
+2002,China PR,Yu Genwei,MF,Tianjin Teda,China PR,,FALSE
+2002,China PR,Su Maozhen,FW,Shandong Luneng,China PR,,FALSE
+2002,China PR,Gao Yao,MF,Shandong Luneng,China PR,,FALSE
+2002,China PR,Li Weifeng,DF,Shenzhen Pingan,China PR,,FALSE
+2002,China PR,Zhao Junzhe,MF,Liaoning,China PR,,FALSE
+2002,China PR,Qu Bo,FW,Qingdao Etsong Hainiu,China PR,,FALSE
+2002,China PR,Du Wei,DF,Shanghai Shenhua,China PR,,FALSE
+2002,China PR,Li Xiaopeng,MF,Shandong Luneng,China PR,,FALSE
+2002,China PR,Qi Hong,MF,Beijing Chengfeng F.C.,China PR,,FALSE
+2002,China PR,Yang Chen,FW,Eintracht Frankfurt,Germany,,FALSE
+2002,China PR,Xu Yunlong,DF,Beijing Guoan,China PR,,FALSE
+2002,China PR,Jiang Jin,GK,Tianjin Teda,China PR,,FALSE
+2002,China PR,Ou Chuliang,GK,Yunnan Hongta,China PR,,FALSE
+2002,Costa Rica,Erick Lonnis (c),GK,Saprissa,Costa Rica,,FALSE
+2002,Costa Rica,Jervis Drummond,DF,Saprissa,Costa Rica,,FALSE
+2002,Costa Rica,Luis Marín,DF,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Mauricio Wright,DF,Herediano,Costa Rica,,FALSE
+2002,Costa Rica,Gilberto Martínez,DF,Saprissa,Costa Rica,,FALSE
+2002,Costa Rica,Wílmer López,MF,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Rolando Fonseca,FW,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Mauricio Solís,MF,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Paulo Wanchope,FW,Manchester City,England,,FALSE
+2002,Costa Rica,Walter Centeno,MF,Saprissa,Costa Rica,,FALSE
+2002,Costa Rica,Rónald Gómez,FW,OFI,Greece,,FALSE
+2002,Costa Rica,Winston Parks,FW,Udinese,Italy,Serie A,TRUE
+2002,Costa Rica,Daniel Vallejos,DF,Herediano,Costa Rica,,FALSE
+2002,Costa Rica,Juan José Rodríguez,DF,San Carlos,Costa Rica,,FALSE
+2002,Costa Rica,Harold Wallace,DF,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Steven Bryce,FW,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Hernán Medford,MF,Saprissa,Costa Rica,,FALSE
+2002,Costa Rica,Álvaro Mesén,GK,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Rodrigo Cordero,MF,Herediano,Costa Rica,,FALSE
+2002,Costa Rica,William Sunsing,FW,Herediano,Costa Rica,,FALSE
+2002,Costa Rica,Pablo Chinchilla,DF,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Carlos Castro,DF,Alajuelense,Costa Rica,,FALSE
+2002,Costa Rica,Lester Morgan,GK,Herediano,Costa Rica,,FALSE
+2002,Turkey,Rüştü Reçber,GK,Fenerbahçe,Turkey,,FALSE
+2002,Turkey,Emre Aşık,DF,Galatasaray,Turkey,,FALSE
+2002,Turkey,Bülent Korkmaz,DF,Galatasaray,Turkey,,FALSE
+2002,Turkey,Fatih Akyel,DF,Fenerbahçe,Turkey,,FALSE
+2002,Turkey,Alpay Özalan,DF,Aston Villa,England,Premier League,TRUE
+2002,Turkey,Arif Erdem,FW,Galatasaray,Turkey,,FALSE
+2002,Turkey,Okan Buruk,MF,Inter Milan,Italy,Serie A,TRUE
+2002,Turkey,Tugay Kerimoğlu,MF,Blackburn Rovers,England,Premier League,TRUE
+2002,Turkey,Hakan Şükür (c),FW,Parma,Italy,Serie A,TRUE
+2002,Turkey,Yıldıray Baştürk,MF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Turkey,Hasan Şaş,FW,Galatasaray,Turkey,,FALSE
+2002,Turkey,Ömer Çatkıç,GK,Gaziantepspor,Turkey,,FALSE
+2002,Turkey,Muzzy Izzet,MF,Leicester City,England,Premier League,TRUE
+2002,Turkey,Tayfur Havutçu,MF,Beşiktaş,Turkey,,FALSE
+2002,Turkey,Nihat Kahveci,FW,Real Sociedad,Spain,La Liga,TRUE
+2002,Turkey,Ümit Özat,DF,Fenerbahçe,Turkey,,FALSE
+2002,Turkey,İlhan Mansız,FW,Beşiktaş,Turkey,,FALSE
+2002,Turkey,Ergün Penbe,MF,Galatasaray,Turkey,,FALSE
+2002,Turkey,Abdullah Ercan,MF,Fenerbahçe,Turkey,,FALSE
+2002,Turkey,Hakan Ünsal,DF,Blackburn Rovers,England,Premier League,TRUE
+2002,Turkey,Emre Belözoğlu,MF,Inter Milan,Italy,Serie A,TRUE
+2002,Turkey,Ümit Davala,MF,Milan,Italy,Serie A,TRUE
+2002,Turkey,Zafer Özgültekin,GK,Ankaragücü,Turkey,,FALSE
+2002,Poland,Jerzy Dudek,GK,Liverpool,England,Premier League,TRUE
+2002,Poland,Tomasz Kłos,DF,1. FC Kaiserslautern,Germany,Bundesliga,TRUE
+2002,Poland,Jacek Zieliński,DF,Legia Warsaw,Poland,,FALSE
+2002,Poland,Michał Żewłakow,DF,Mouscron,Belgium,,FALSE
+2002,Poland,Tomasz Rząsa,DF,Feyenoord,Netherlands,,FALSE
+2002,Poland,Tomasz Hajto,DF,Schalke 04,Germany,Bundesliga,TRUE
+2002,Poland,Piotr Świerczewski,MF,Marseille,France,Ligue 1,TRUE
+2002,Poland,Cezary Kucharski,FW,Legia Warsaw,Poland,,FALSE
+2002,Poland,Paweł Kryszałowicz,FW,Eintracht Frankfurt,Germany,,FALSE
+2002,Poland,Radosław Kałużny,MF,Energie Cottbus,Germany,Bundesliga,TRUE
+2002,Poland,Emmanuel Olisadebe,FW,Panathinaikos,Greece,,FALSE
+2002,Poland,Radosław Majdan,GK,Göztepe,Turkey,,FALSE
+2002,Poland,Arkadiusz Głowacki,DF,Wisła Kraków,Poland,,FALSE
+2002,Poland,Marcin Żewłakow,FW,Mouscron,Belgium,,FALSE
+2002,Poland,Tomasz Wałdoch (c),DF,Schalke 04,Germany,Bundesliga,TRUE
+2002,Poland,Maciej Murawski,DF,Legia Warsaw,Poland,,FALSE
+2002,Poland,Arkadiusz Bąk,MF,Widzew Łódź,Poland,,FALSE
+2002,Poland,Jacek Krzynówek,FW,1. FC Nürnberg,Germany,Bundesliga,TRUE
+2002,Poland,Maciej Żurawski,FW,Wisła Kraków,Poland,,FALSE
+2002,Poland,Jacek Bąk,DF,Lens,France,Ligue 1,TRUE
+2002,Poland,Marek Koźmiński,MF,Ancona,Italy,,FALSE
+2002,Poland,Adam Matysek,GK,RKS Radomsko,Poland,,FALSE
+2002,Poland,Paweł Sibik,MF,Odra Wodzisław,Poland,,FALSE
+2002,Portugal,Vítor Baía,GK,Porto,Portugal,,FALSE
+2002,Portugal,Jorge Costa,DF,Porto,Portugal,,FALSE
+2002,Portugal,Abel Xavier,DF,Liverpool,England,Premier League,TRUE
+2002,Portugal,Marco Caneira,DF,Benfica,Portugal,,FALSE
+2002,Portugal,Fernando Couto (c),DF,Lazio,Italy,Serie A,TRUE
+2002,Portugal,Paulo Sousa,MF,Espanyol,Spain,La Liga,TRUE
+2002,Portugal,Luís Figo,MF,Real Madrid,Spain,La Liga,TRUE
+2002,Portugal,João Pinto,FW,Sporting CP,Portugal,,FALSE
+2002,Portugal,Pauleta,FW,Bordeaux,France,Ligue 1,TRUE
+2002,Portugal,Rui Costa,MF,Milan,Italy,Serie A,TRUE
+2002,Portugal,Sérgio Conceição,MF,Inter Milan,Italy,Serie A,TRUE
+2002,Portugal,Hugo Viana,MF,Sporting CP,Portugal,,FALSE
+2002,Portugal,Jorge Andrade,DF,Porto,Portugal,,FALSE
+2002,Portugal,Pedro Barbosa,MF,Sporting CP,Portugal,,FALSE
+2002,Portugal,Nélson Pereira,GK,Sporting CP,Portugal,,FALSE
+2002,Portugal,Ricardo,GK,Boavista,Portugal,,FALSE
+2002,Portugal,Paulo Bento,MF,Sporting CP,Portugal,,FALSE
+2002,Portugal,Nuno Frechaut,DF,Boavista,Portugal,,FALSE
+2002,Portugal,Capucho,MF,Porto,Portugal,,FALSE
+2002,Portugal,Petit,MF,Boavista,Portugal,,FALSE
+2002,Portugal,Nuno Gomes,FW,Fiorentina,Italy,Serie A,TRUE
+2002,Portugal,Beto,DF,Sporting CP,Portugal,,FALSE
+2002,Portugal,Rui Jorge,DF,Sporting CP,Portugal,,FALSE
+2002,South Korea,Lee Woon-jae,GK,Suwon Samsung Bluewings,South Korea,,FALSE
+2002,South Korea,Hyun Young-min,DF,Ulsan Hyundai Horangi,South Korea,,FALSE
+2002,South Korea,Choi Sung-yong,MF,Suwon Samsung Bluewings,South Korea,,FALSE
+2002,South Korea,Choi Jin-cheul,DF,Jeonbuk Hyundai Motors,South Korea,,FALSE
+2002,South Korea,Kim Nam-il,MF,Jeonnam Dragons,South Korea,,FALSE
+2002,South Korea,Yoo Sang-chul,MF,Kashiwa Reysol,Japan,,FALSE
+2002,South Korea,Kim Tae-young,DF,Jeonnam Dragons,South Korea,,FALSE
+2002,South Korea,Choi Tae-uk,FW,Anyang LG Cheetahs,South Korea,,FALSE
+2002,South Korea,Seol Ki-hyeon,FW,Anderlecht,Belgium,,FALSE
+2002,South Korea,Lee Young-pyo,DF,FC Seoul,South Korea,,FALSE
+2002,South Korea,Choi Yong-soo,FW,JEF United Ichihara,Japan,,FALSE
+2002,South Korea,Kim Byung-ji,GK,Pohang Steelers,South Korea,,FALSE
+2002,South Korea,Lee Eul-yong,MF,Jeju United FC,South Korea,,FALSE
+2002,South Korea,Lee Chun-soo,FW,Ulsan Hyundai Horangi,South Korea,,FALSE
+2002,South Korea,Lee Min-sung,DF,Busan IPark,South Korea,,FALSE
+2002,South Korea,Cha Du-ri,FW,Korea University,South Korea,,FALSE
+2002,South Korea,Yoon Jong-hwan,MF,Cerezo Osaka,Japan,,FALSE
+2002,South Korea,Hwang Sun-hong,FW,Kashiwa Reysol,Japan,,FALSE
+2002,South Korea,Ahn Jung-hwan,FW,Perugia,Italy,Serie A,TRUE
+2002,South Korea,Hong Myung-bo (c),DF,Pohang Steelers,South Korea,,FALSE
+2002,South Korea,Park Ji-sung,MF,Kyoto Sanga FC,Japan,,FALSE
+2002,South Korea,Song Chong-gug,MF,Busan I'Cons,South Korea,,FALSE
+2002,South Korea,Choi Eun-sung,GK,Daejeon Hana Citizen,South Korea,,FALSE
+2002,United States,Brad Friedel,GK,Blackburn Rovers,England,Premier League,TRUE
+2002,United States,Frankie Hejduk,MF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,United States,Gregg Berhalter,DF,Crystal Palace,England,,FALSE
+2002,United States,Pablo Mastroeni,DF,Colorado Rapids,United States,,FALSE
+2002,United States,John O'Brien,MF,Ajax,Netherlands,,FALSE
+2002,United States,David Regis,DF,Metz,France,Ligue 1,TRUE
+2002,United States,Eddie Lewis,MF,Fulham,England,Premier League,TRUE
+2002,United States,Earnie Stewart,MF,NAC Breda,Netherlands,,FALSE
+2002,United States,Joe-Max Moore,FW,Everton,England,Premier League,TRUE
+2002,United States,Claudio Reyna (c),MF,Sunderland,England,Premier League,TRUE
+2002,United States,Clint Mathis,FW,New York Red Bulls,United States,,FALSE
+2002,United States,Jeff Agoos,DF,San Jose Earthquakes,United States,,FALSE
+2002,United States,Cobi Jones,MF,LA Galaxy,United States,,FALSE
+2002,United States,Steve Cherundolo,DF,Hannover 96,Germany,,FALSE
+2002,United States,Josh Wolff,FW,Chicago Fire,United States,,FALSE
+2002,United States,Carlos Llamosa,DF,New England Revolution,United States,,FALSE
+2002,United States,DaMarcus Beasley,MF,Chicago Fire,United States,,FALSE
+2002,United States,Kasey Keller,GK,Tottenham Hotspur,England,Premier League,TRUE
+2002,United States,Tony Meola,GK,Sporting Kansas City,United States,,FALSE
+2002,United States,Brian McBride,FW,Columbus Crew,United States,,FALSE
+2002,United States,Landon Donovan,FW,San Jose Earthquakes,United States,,FALSE
+2002,United States,Tony Sanneh,DF,1. FC Nürnberg,Germany,Bundesliga,TRUE
+2002,United States,Eddie Pope,DF,D.C. United,United States,,FALSE
+2002,Cameroon,Alioum Boukar,GK,Samsunspor,Turkey,,FALSE
+2002,Cameroon,Bill Tchato,DF,Montpellier,France,Ligue 1,TRUE
+2002,Cameroon,Pierre Womé,DF,Bologna,Italy,Serie A,TRUE
+2002,Cameroon,Rigobert Song (c),DF,1. FC Köln,Germany,Bundesliga,TRUE
+2002,Cameroon,Raymond Kalla,DF,Extremadura,Spain,,FALSE
+2002,Cameroon,Pierre Njanka,DF,Strasbourg,France,,FALSE
+2002,Cameroon,Joseph N'Do,MF,Al-Khaleej,Saudi Arabia,,FALSE
+2002,Cameroon,Geremi,DF,Real Madrid,Spain,La Liga,TRUE
+2002,Cameroon,Samuel Eto'o,FW,Mallorca,Spain,La Liga,TRUE
+2002,Cameroon,Patrick M'Boma,FW,Sunderland,England,Premier League,TRUE
+2002,Cameroon,Pius N'Diefi,FW,Sedan,France,Ligue 1,TRUE
+2002,Cameroon,Lauren,MF,Arsenal,England,Premier League,TRUE
+2002,Cameroon,Lucien Mettomo,DF,Manchester City,England,,FALSE
+2002,Cameroon,Joël Epalle,MF,Panachaiki,Greece,,FALSE
+2002,Cameroon,Nicolas Alnoudji,MF,Rizespor,Turkey,,FALSE
+2002,Cameroon,Jacques Songo'o,GK,Metz,France,Ligue 1,TRUE
+2002,Cameroon,Marc-Vivien Foé,MF,Lyon,France,Ligue 1,TRUE
+2002,Cameroon,Patrick Suffo,FW,Sheffield United,England,,FALSE
+2002,Cameroon,Eric Djemba-Djemba,MF,Nantes,France,Ligue 1,TRUE
+2002,Cameroon,Salomon Olembé,MF,Marseille,France,Ligue 1,TRUE
+2002,Cameroon,Joseph-Désiré Job,FW,Metz,France,Ligue 1,TRUE
+2002,Cameroon,Carlos Kameni,GK,Le Havre,France,,FALSE
+2002,Cameroon,Daniel N'Gom Kome,MF,Numancia,Spain,,FALSE
+2002,Germany,Oliver Kahn (c),GK,Bayern Munich,Germany,Bundesliga,TRUE
+2002,Germany,Thomas Linke,DF,Bayern Munich,Germany,Bundesliga,TRUE
+2002,Germany,Marko Rehmer,DF,Hertha BSC,Germany,Bundesliga,TRUE
+2002,Germany,Frank Baumann,DF,Werder Bremen,Germany,Bundesliga,TRUE
+2002,Germany,Carsten Ramelow,MF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Germany,Christian Ziege,DF,Tottenham Hotspur,England,Premier League,TRUE
+2002,Germany,Oliver Neuville,FW,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Germany,Dietmar Hamann,MF,Liverpool,England,Premier League,TRUE
+2002,Germany,Carsten Jancker,FW,Bayern Munich,Germany,Bundesliga,TRUE
+2002,Germany,Lars Ricken,MF,Borussia Dortmund,Germany,Bundesliga,TRUE
+2002,Germany,Miroslav Klose,FW,1. FC Kaiserslautern,Germany,Bundesliga,TRUE
+2002,Germany,Jens Lehmann,GK,Borussia Dortmund,Germany,Bundesliga,TRUE
+2002,Germany,Michael Ballack,MF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Germany,Gerald Asamoah,FW,Schalke 04,Germany,Bundesliga,TRUE
+2002,Germany,Sebastian Kehl,DF,Borussia Dortmund,Germany,Bundesliga,TRUE
+2002,Germany,Jens Jeremies,MF,Bayern Munich,Germany,Bundesliga,TRUE
+2002,Germany,Marco Bode,MF,Werder Bremen,Germany,Bundesliga,TRUE
+2002,Germany,Jörg Böhme,MF,Schalke 04,Germany,Bundesliga,TRUE
+2002,Germany,Bernd Schneider,MF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Germany,Oliver Bierhoff,FW,Monaco,France,Ligue 1,TRUE
+2002,Germany,Christoph Metzelder,DF,Borussia Dortmund,Germany,Bundesliga,TRUE
+2002,Germany,Torsten Frings,MF,Werder Bremen,Germany,Bundesliga,TRUE
+2002,Germany,Hans-Jörg Butt,GK,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Republic of Ireland,Shay Given,GK,Newcastle United,England,Premier League,TRUE
+2002,Republic of Ireland,Steve Finnan,DF,Fulham,England,Premier League,TRUE
+2002,Republic of Ireland,Ian Harte,DF,Leeds United,England,Premier League,TRUE
+2002,Republic of Ireland,Kenny Cunningham,DF,Wimbledon,England,,FALSE
+2002,Republic of Ireland,Steve Staunton (c),DF,Aston Villa,England,Premier League,TRUE
+2002,Republic of Ireland,Roy Keane*,MF,Manchester United,England,Premier League,TRUE
+2002,Republic of Ireland,Jason McAteer,MF,Sunderland,England,Premier League,TRUE
+2002,Republic of Ireland,Matt Holland,MF,Ipswich Town,England,Premier League,TRUE
+2002,Republic of Ireland,Damien Duff,MF,Blackburn Rovers,England,Premier League,TRUE
+2002,Republic of Ireland,Robbie Keane,FW,Leeds United,England,Premier League,TRUE
+2002,Republic of Ireland,Kevin Kilbane,MF,Sunderland,England,Premier League,TRUE
+2002,Republic of Ireland,Mark Kinsella,MF,Charlton Athletic,England,Premier League,TRUE
+2002,Republic of Ireland,David Connolly,FW,Wimbledon,England,,FALSE
+2002,Republic of Ireland,Gary Breen,DF,Coventry City,England,,FALSE
+2002,Republic of Ireland,Richard Dunne,DF,Manchester City,England,,FALSE
+2002,Republic of Ireland,Dean Kiely,GK,Charlton Athletic,England,Premier League,TRUE
+2002,Republic of Ireland,Niall Quinn,FW,Sunderland,England,Premier League,TRUE
+2002,Republic of Ireland,Gary Kelly,DF,Leeds United,England,Premier League,TRUE
+2002,Republic of Ireland,Clinton Morrison,FW,Crystal Palace,England,,FALSE
+2002,Republic of Ireland,Andrew O'Brien,DF,Newcastle United,England,Premier League,TRUE
+2002,Republic of Ireland,Steven Reid,MF,Millwall,England,,FALSE
+2002,Republic of Ireland,Lee Carsley,MF,Everton,England,Premier League,TRUE
+2002,Republic of Ireland,Alan Kelly,GK,Blackburn Rovers,England,Premier League,TRUE
+2002,Saudi Arabia,Mohamed Al-Deayea,GK,Al Hilal,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Mohammed Sheliah,DF,Al Ahli,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Redha Tukar,DF,Al Shabab,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Abdullah Zubromawi,DF,Al Ahli,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Mohsin Al-Harthi,DF,Al Nassr,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Fouzi Al-Shehri,DF,Al Ahli,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Ibrahim Suwayed,MF,Al Ahli,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Mohammed Noor,MF,Al-Ittihad,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Sami Al-Jaber (c),FW,Al Hilal,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Mohammad Al-Shalhoub,MF,Al Hilal,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Obeid Al-Dosari,FW,Al Ahli,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Ahmed Al-Dokhi,DF,Al Hilal,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Hussein Abdulghani,DF,Al Ahli,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Abdulaziz Al-Khathran,MF,Al Shabab,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Abdullah Al-Jumaan,FW,Al Hilal,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Khamis Al-Owairan,MF,Al-Ittihad,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Abdullah Al-Waked,MF,Al Shabab,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Nawaf Al-Temyat,MF,Al Hilal,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Omar Al-Ghamdi,MF,Al Hilal,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Al-Hasan Al-Yami,FW,Al-Ittihad,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Mabrouk Zaid,GK,Al-Ittihad,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Mohammed Al-Khojali,GK,Al Nassr,Saudi Arabia,,FALSE
+2002,Saudi Arabia,Mansour Al-Thagafi,DF,Al Nassr,Saudi Arabia,,FALSE
+2002,Argentina,Germán Burgos,GK,Atlético Madrid,Spain,,FALSE
+2002,Argentina,Roberto Ayala,DF,Valencia,Spain,La Liga,TRUE
+2002,Argentina,Juan Pablo Sorín,DF,Cruzeiro,Brazil,,FALSE
+2002,Argentina,Mauricio Pochettino,DF,Paris Saint-Germain,France,Ligue 1,TRUE
+2002,Argentina,Matías Almeyda,MF,Parma,Italy,Serie A,TRUE
+2002,Argentina,Walter Samuel,DF,Roma,Italy,Serie A,TRUE
+2002,Argentina,Claudio López,FW,Lazio,Italy,Serie A,TRUE
+2002,Argentina,Javier Zanetti,DF,Inter Milan,Italy,Serie A,TRUE
+2002,Argentina,Gabriel Batistuta (c),FW,Roma,Italy,Serie A,TRUE
+2002,Argentina,Ariel Ortega,MF,River Plate,Argentina,,FALSE
+2002,Argentina,Juan Sebastián Verón,MF,Manchester United,England,Premier League,TRUE
+2002,Argentina,Pablo Cavallero,GK,Celta Vigo,Spain,La Liga,TRUE
+2002,Argentina,Diego Placente,DF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Argentina,Diego Simeone,MF,Lazio,Italy,Serie A,TRUE
+2002,Argentina,Claudio Husaín,MF,River Plate,Argentina,,FALSE
+2002,Argentina,Pablo Aimar,MF,Valencia,Spain,La Liga,TRUE
+2002,Argentina,Gustavo López,MF,Celta Vigo,Spain,La Liga,TRUE
+2002,Argentina,Kily González,MF,Valencia,Spain,La Liga,TRUE
+2002,Argentina,Hernán Crespo,FW,Lazio,Italy,Serie A,TRUE
+2002,Argentina,Marcelo Gallardo,MF,Monaco,France,Ligue 1,TRUE
+2002,Argentina,Claudio Caniggia,FW,Rangers,Scotland,,FALSE
+2002,Argentina,José Chamot,DF,Milan,Italy,Serie A,TRUE
+2002,Argentina,Roberto Bonano,GK,Barcelona,Spain,La Liga,TRUE
+2002,England,David Seaman,GK,Arsenal,England,Premier League,TRUE
+2002,England,Danny Mills,DF,Leeds United,England,Premier League,TRUE
+2002,England,Ashley Cole,DF,Arsenal,England,Premier League,TRUE
+2002,England,Trevor Sinclair,MF,West Ham United,England,Premier League,TRUE
+2002,England,Rio Ferdinand,DF,Leeds United,England,Premier League,TRUE
+2002,England,Sol Campbell,DF,Arsenal,England,Premier League,TRUE
+2002,England,David Beckham (c),MF,Manchester United,England,Premier League,TRUE
+2002,England,Paul Scholes,MF,Manchester United,England,Premier League,TRUE
+2002,England,Robbie Fowler,FW,Leeds United,England,Premier League,TRUE
+2002,England,Michael Owen,FW,Liverpool,England,Premier League,TRUE
+2002,England,Emile Heskey,FW,Liverpool,England,Premier League,TRUE
+2002,England,Wes Brown,DF,Manchester United,England,Premier League,TRUE
+2002,England,Nigel Martyn,GK,Leeds United,England,Premier League,TRUE
+2002,England,Wayne Bridge,DF,Southampton,England,Premier League,TRUE
+2002,England,Martin Keown,DF,Arsenal,England,Premier League,TRUE
+2002,England,Gareth Southgate,DF,Middlesbrough,England,Premier League,TRUE
+2002,England,Teddy Sheringham,FW,Tottenham Hotspur,England,Premier League,TRUE
+2002,England,Owen Hargreaves,MF,Bayern Munich,Germany,Bundesliga,TRUE
+2002,England,Joe Cole,MF,West Ham United,England,Premier League,TRUE
+2002,England,Darius Vassell,FW,Aston Villa,England,Premier League,TRUE
+2002,England,Nicky Butt,MF,Manchester United,England,Premier League,TRUE
+2002,England,David James,GK,West Ham United,England,Premier League,TRUE
+2002,England,Kieron Dyer,MF,Newcastle United,England,Premier League,TRUE
+2002,Nigeria,Ike Shorunmu,GK,Lucerne,Switzerland,,FALSE
+2002,Nigeria,Joseph Yobo,DF,Marseille,France,Ligue 1,TRUE
+2002,Nigeria,Celestine Babayaro,DF,Chelsea,England,Premier League,TRUE
+2002,Nigeria,Nwankwo Kanu,FW,Arsenal,England,Premier League,TRUE
+2002,Nigeria,Isaac Okoronkwo,DF,Shakhtar Donetsk,Ukraine,,FALSE
+2002,Nigeria,Taribo West,DF,1. FC Kaiserslautern,Germany,Bundesliga,TRUE
+2002,Nigeria,Pius Ikedia,MF,Ajax,Netherlands,,FALSE
+2002,Nigeria,Mutiu Adepoju,MF,Salamanca,Spain,,FALSE
+2002,Nigeria,Bartholomew Ogbeche,FW,Paris Saint-Germain,France,Ligue 1,TRUE
+2002,Nigeria,Jay-Jay Okocha (c),MF,Paris Saint-Germain,France,Ligue 1,TRUE
+2002,Nigeria,Garba Lawal,MF,Roda JC,Netherlands,,FALSE
+2002,Nigeria,Austin Ejide,GK,Gabros International,Nigeria,,FALSE
+2002,Nigeria,Rabiu Afolabi,DF,Standard Liège,Belgium,,FALSE
+2002,Nigeria,Ifeanyi Udeze,DF,PAOK,Greece,,FALSE
+2002,Nigeria,Justice Christopher,MF,Antwerp,Belgium,,FALSE
+2002,Nigeria,Efe Sodje,DF,Crewe Alexandra,England,,FALSE
+2002,Nigeria,Julius Aghahowa,FW,Shakhtar Donetsk,Ukraine,,FALSE
+2002,Nigeria,Benedict Akwuegbu,FW,Shenyang Jinde,China PR,,FALSE
+2002,Nigeria,Eric Ejiofor,DF,Maccabi Haifa,Israel,,FALSE
+2002,Nigeria,James Obiorah,MF,Lokomotiv Moscow,Russia,,FALSE
+2002,Nigeria,John Utaka,MF,Al Sadd,Qatar,,FALSE
+2002,Nigeria,Vincent Enyeama,GK,Enyimba,Nigeria,,FALSE
+2002,Nigeria,Femi Opabunmi,MF,Ibadan,Nigeria,,FALSE
+2002,Sweden,Magnus Hedman,GK,Coventry City,England,,FALSE
+2002,Sweden,Olof Mellberg,DF,Aston Villa,England,Premier League,TRUE
+2002,Sweden,Patrik Andersson (c),DF,Barcelona,Spain,La Liga,TRUE
+2002,Sweden,Johan Mjällby,DF,Celtic,Scotland,,FALSE
+2002,Sweden,Michael Svensson,DF,Troyes,France,Ligue 1,TRUE
+2002,Sweden,Tobias Linderoth,MF,Everton,England,Premier League,TRUE
+2002,Sweden,Niclas Alexandersson,MF,Everton,England,Premier League,TRUE
+2002,Sweden,Anders Svensson,MF,Southampton,England,Premier League,TRUE
+2002,Sweden,Freddie Ljungberg,MF,Arsenal,England,Premier League,TRUE
+2002,Sweden,Marcus Allbäck,FW,Heerenveen,Netherlands,,FALSE
+2002,Sweden,Henrik Larsson,FW,Celtic,Scotland,,FALSE
+2002,Sweden,Magnus Kihlstedt,GK,Copenhagen,Denmark,,FALSE
+2002,Sweden,Tomas Antonelius,DF,Copenhagen,Denmark,,FALSE
+2002,Sweden,Erik Edman,DF,Heerenveen,Netherlands,,FALSE
+2002,Sweden,Andreas Jakobsson,DF,Hansa Rostock,Germany,Bundesliga,TRUE
+2002,Sweden,Teddy Lučić,DF,AIK,Sweden,,FALSE
+2002,Sweden,Magnus Svensson,MF,Brøndby,Denmark,,FALSE
+2002,Sweden,Mattias Jonson,MF,Brøndby,Denmark,,FALSE
+2002,Sweden,Pontus Farnerud,MF,Monaco,France,Ligue 1,TRUE
+2002,Sweden,Daniel Andersson,MF,Venezia,Italy,Serie A,TRUE
+2002,Sweden,Zlatan Ibrahimović,FW,Ajax,Netherlands,,FALSE
+2002,Sweden,Andreas Andersson,FW,AIK,Sweden,,FALSE
+2002,Sweden,Andreas Isaksson,GK,Djurgården,Sweden,,FALSE
+2002,Croatia,Stipe Pletikosa,GK,Hajduk Split,Croatia,,FALSE
+2002,Croatia,Anthony Šerić,DF,Hellas Verona,Italy,Serie A,TRUE
+2002,Croatia,Josip Šimunić,DF,Hertha BSC,Germany,Bundesliga,TRUE
+2002,Croatia,Stjepan Tomas,DF,Vicenza,Italy,,FALSE
+2002,Croatia,Milan Rapaić,MF,Fenerbahçe,Turkey,,FALSE
+2002,Croatia,Boris Živković,DF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Croatia,Davor Vugrinec,FW,Lecce,Italy,Serie A,TRUE
+2002,Croatia,Robert Prosinečki,MF,Portsmouth,England,,FALSE
+2002,Croatia,Davor Šuker (c),FW,1860 Munich,Germany,Bundesliga,TRUE
+2002,Croatia,Niko Kovač,MF,Bayern Munich,Germany,Bundesliga,TRUE
+2002,Croatia,Alen Bokšić,FW,Middlesbrough,England,Premier League,TRUE
+2002,Croatia,Tomislav Butina,GK,Dinamo Zagreb,Croatia,,FALSE
+2002,Croatia,Mario Stanić,MF,Chelsea,England,Premier League,TRUE
+2002,Croatia,Zvonimir Soldo,MF,VfB Stuttgart,Germany,Bundesliga,TRUE
+2002,Croatia,Daniel Šarić,DF,Panathinaikos,Greece,,FALSE
+2002,Croatia,Jurica Vranješ,MF,Bayer Leverkusen,Germany,Bundesliga,TRUE
+2002,Croatia,Robert Jarni,DF,Panathinaikos,Greece,,FALSE
+2002,Croatia,Ivica Olić,FW,Zagreb,Croatia,,FALSE
+2002,Croatia,Goran Vlaović,FW,Panathinaikos,Greece,,FALSE
+2002,Croatia,Dario Šimić,DF,Inter Milan,Italy,Serie A,TRUE
+2002,Croatia,Robert Kovač,DF,Bayern Munich,Germany,Bundesliga,TRUE
+2002,Croatia,Boško Balaban,FW,Aston Villa,England,Premier League,TRUE
+2002,Croatia,Vladimir Vasilj,GK,Zagreb,Croatia,,FALSE
+2002,Ecuador,José Francisco Cevallos,GK,Barcelona SC,Ecuador,,FALSE
+2002,Ecuador,Augusto Poroso,DF,Emelec,Ecuador,,FALSE
+2002,Ecuador,Iván Hurtado,DF,Barcelona SC,Ecuador,,FALSE
+2002,Ecuador,Ulises de la Cruz,DF,Hibernian,Scotland,,FALSE
+2002,Ecuador,Alfonso Obregón,MF,LDU Quito,Ecuador,,FALSE
+2002,Ecuador,Raúl Guerrón,DF,Deportivo Quito,Ecuador,,FALSE
+2002,Ecuador,Nicolás Asencio,FW,Barcelona SC,Ecuador,,FALSE
+2002,Ecuador,Luis Gómez,MF,Barcelona SC,Ecuador,,FALSE
+2002,Ecuador,Iván Kaviedes,FW,Barcelona SC,Ecuador,,FALSE
+2002,Ecuador,Álex Aguinaga (c),MF,Necaxa,Mexico,,FALSE
+2002,Ecuador,Agustín Delgado,FW,Southampton,England,Premier League,TRUE
+2002,Ecuador,Oswaldo Ibarra,GK,El Nacional,Ecuador,,FALSE
+2002,Ecuador,Ángel Fernández,FW,El Nacional,Ecuador,,FALSE
+2002,Ecuador,Juan Carlos Burbano,MF,El Nacional,Ecuador,,FALSE
+2002,Ecuador,Marlon Ayoví,DF,Deportivo Quito,Ecuador,,FALSE
+2002,Ecuador,Cléber Chalá,MF,El Nacional,Ecuador,,FALSE
+2002,Ecuador,Giovanny Espinoza,DF,Aucas,Ecuador,,FALSE
+2002,Ecuador,Carlos Tenorio,FW,LDU Quito,Ecuador,,FALSE
+2002,Ecuador,Édison Méndez,FW,Deportivo Quito,Ecuador,,FALSE
+2002,Ecuador,Edwin Tenorio,MF,Barcelona SC,Ecuador,,FALSE
+2002,Ecuador,Wellington Sánchez,MF,Emelec,Ecuador,,FALSE
+2002,Ecuador,Daniel Viteri,GK,Emelec,Ecuador,,FALSE
+2002,Ecuador,Walter Ayoví,DF,Emelec,Ecuador,,FALSE
+2002,Italy,Gianluigi Buffon,GK,Juventus,Italy,Serie A,TRUE
+2002,Italy,Christian Panucci,DF,Roma,Italy,Serie A,TRUE
+2002,Italy,Paolo Maldini (c),DF,Milan,Italy,Serie A,TRUE
+2002,Italy,Francesco Coco,DF,Barcelona,Spain,La Liga,TRUE
+2002,Italy,Fabio Cannavaro,DF,Parma,Italy,Serie A,TRUE
+2002,Italy,Cristiano Zanetti,MF,Internazionale,Italy,Serie A,TRUE
+2002,Italy,Alessandro Del Piero,FW,Juventus,Italy,Serie A,TRUE
+2002,Italy,Gennaro Gattuso,MF,Milan,Italy,Serie A,TRUE
+2002,Italy,Filippo Inzaghi,FW,Milan,Italy,Serie A,TRUE
+2002,Italy,Francesco Totti,FW,Roma,Italy,Serie A,TRUE
+2002,Italy,Cristiano Doni,MF,Atalanta,Italy,Serie A,TRUE
+2002,Italy,Christian Abbiati,GK,Milan,Italy,Serie A,TRUE
+2002,Italy,Alessandro Nesta,DF,Lazio,Italy,Serie A,TRUE
+2002,Italy,Luigi Di Biagio,MF,Internazionale,Italy,Serie A,TRUE
+2002,Italy,Mark Iuliano,DF,Juventus,Italy,Serie A,TRUE
+2002,Italy,Angelo Di Livio,MF,Fiorentina,Italy,Serie A,TRUE
+2002,Italy,Damiano Tommasi,MF,Roma,Italy,Serie A,TRUE
+2002,Italy,Marco Delvecchio,FW,Roma,Italy,Serie A,TRUE
+2002,Italy,Gianluca Zambrotta,DF,Juventus,Italy,Serie A,TRUE
+2002,Italy,Vincenzo Montella,FW,Roma,Italy,Serie A,TRUE
+2002,Italy,Christian Vieri,FW,Internazionale,Italy,Serie A,TRUE
+2002,Italy,Francesco Toldo,GK,Internazionale,Italy,Serie A,TRUE
+2002,Italy,Marco Materazzi,DF,Internazionale,Italy,Serie A,TRUE
+2002,Mexico,Óscar Pérez,GK,Cruz Azul,Mexico,,FALSE
+2002,Mexico,Francisco Gabriel de Anda,DF,Pachuca,Mexico,,FALSE
+2002,Mexico,Rafael García,MF,Toluca,Mexico,,FALSE
+2002,Mexico,Rafael Márquez (c),DF,Monaco,France,Ligue 1,TRUE
+2002,Mexico,Manuel Vidrio,DF,Pachuca,Mexico,,FALSE
+2002,Mexico,Gerardo Torrado,MF,Sevilla,Spain,La Liga,TRUE
+2002,Mexico,Ramón Morales,MF,Guadalajara,Mexico,,FALSE
+2002,Mexico,Alberto García Aspe,MF,Puebla,Mexico,,FALSE
+2002,Mexico,Jared Borgetti,FW,Santos Laguna,Mexico,,FALSE
+2002,Mexico,Cuauhtémoc Blanco,FW,Valladolid,Spain,La Liga,TRUE
+2002,Mexico,Braulio Luna,MF,Necaxa,Mexico,,FALSE
+2002,Mexico,Oswaldo Sánchez,GK,Guadalajara,Mexico,,FALSE
+2002,Mexico,Sigifredo Mercado,MF,Atlas,Mexico,,FALSE
+2002,Mexico,Germán Villa,MF,América,Mexico,,FALSE
+2002,Mexico,Luis Hernández,FW,América,Mexico,,FALSE
+2002,Mexico,Salvador Carmona,DF,Toluca,Mexico,,FALSE
+2002,Mexico,Francisco Palencia,FW,Espanyol,Spain,La Liga,TRUE
+2002,Mexico,Johan Rodríguez,MF,Santos Laguna,Mexico,,FALSE
+2002,Mexico,Gabriel Caballero,MF,Pachuca,Mexico,,FALSE
+2002,Mexico,Melvin Brown,DF,Cruz Azul,Mexico,,FALSE
+2002,Mexico,Jesús Arellano,FW,Monterrey,Mexico,,FALSE
+2002,Mexico,Alberto Rodríguez,DF,Pachuca,Mexico,,FALSE
+2002,Mexico,Jorge Campos,GK,UNAM,Mexico,,FALSE
+2002,Belgium,Geert De Vlieger,GK,Willem II,Netherlands,,FALSE
+2002,Belgium,Eric Deflandre,DF,Lyon,France,Ligue 1,TRUE
+2002,Belgium,Glen De Boeck,DF,Anderlecht,Belgium,,FALSE
+2002,Belgium,Eric Van Meir,DF,Standard Liège,Belgium,,FALSE
+2002,Belgium,Nico Van Kerckhoven,DF,Schalke 04,Germany,Bundesliga,TRUE
+2002,Belgium,Timmy Simons,MF,Club Brugge,Belgium,,FALSE
+2002,Belgium,Marc Wilmots (c),FW,Schalke 04,Germany,Bundesliga,TRUE
+2002,Belgium,Bart Goor,MF,Hertha BSC,Germany,Bundesliga,TRUE
+2002,Belgium,Wesley Sonck,FW,Genk,Belgium,,FALSE
+2002,Belgium,Johan Walem,MF,Standard Liège,Belgium,,FALSE
+2002,Belgium,Gert Verheyen,FW,Club Brugge,Belgium,,FALSE
+2002,Belgium,Peter Van der Heyden,DF,Club Brugge,Belgium,,FALSE
+2002,Belgium,Franky Vandendriessche,GK,Mouscron,Belgium,,FALSE
+2002,Belgium,Sven Vermant,MF,Schalke 04,Germany,Bundesliga,TRUE
+2002,Belgium,Jacky Peeters,DF,Gent,Belgium,,FALSE
+2002,Belgium,Daniel Van Buyten,DF,Marseille,France,Ligue 1,TRUE
+2002,Belgium,Gaëtan Englebert,MF,Club Brugge,Belgium,,FALSE
+2002,Belgium,Yves Vanderhaeghe,MF,Anderlecht,Belgium,,FALSE
+2002,Belgium,Bernd Thijs,MF,Genk,Belgium,,FALSE
+2002,Belgium,Branko Strupar,FW,Derby County,England,Premier League,TRUE
+2002,Belgium,Danny Boffin,MF,Sint-Truiden,Belgium,,FALSE
+2002,Belgium,Mbo Mpenza,FW,Mouscron,Belgium,,FALSE
+2002,Belgium,Frédéric Herpoel,GK,Gent,Belgium,,FALSE
+2002,Japan,Yoshikatsu Kawaguchi,GK,Portsmouth,England,,FALSE
+2002,Japan,Yutaka Akita,DF,Kashima Antlers,Japan,,FALSE
+2002,Japan,Naoki Matsuda,DF,Yokohama F. Marinos,Japan,,FALSE
+2002,Japan,Ryuzo Morioka,DF,Shimizu S-Pulse,Japan,,FALSE
+2002,Japan,Junichi Inamoto,MF,Arsenal,England,Premier League,TRUE
+2002,Japan,Toshihiro Hattori,DF,Júbilo Iwata,Japan,,FALSE
+2002,Japan,Hidetoshi Nakata,MF,Parma,Italy,Serie A,TRUE
+2002,Japan,Hiroaki Morishima,MF,Cerezo Osaka,Japan,,FALSE
+2002,Japan,Akinori Nishizawa,FW,Cerezo Osaka,Japan,,FALSE
+2002,Japan,Masashi Nakayama,FW,Júbilo Iwata,Japan,,FALSE
+2002,Japan,Takayuki Suzuki,FW,Kashima Antlers,Japan,,FALSE
+2002,Japan,Seigo Narazaki,GK,Nagoya Grampus Eight,Japan,,FALSE
+2002,Japan,Atsushi Yanagisawa,FW,Kashima Antlers,Japan,,FALSE
+2002,Japan,Alessandro Santos,MF,Shimizu S-Pulse,Japan,,FALSE
+2002,Japan,Takashi Fukunishi,MF,Júbilo Iwata,Japan,,FALSE
+2002,Japan,Kōji Nakata,DF,Kashima Antlers,Japan,,FALSE
+2002,Japan,Tsuneyasu Miyamoto (c),DF,Gamba Osaka,Japan,,FALSE
+2002,Japan,Shinji Ono,MF,Feyenoord,Netherlands,,FALSE
+2002,Japan,Mitsuo Ogasawara,MF,Kashima Antlers,Japan,,FALSE
+2002,Japan,Tomokazu Myojin,MF,Kashiwa Reysol,Japan,,FALSE
+2002,Japan,Kazuyuki Toda,MF,Shimizu S-Pulse,Japan,,FALSE
+2002,Japan,Daisuke Ichikawa,MF,Shimizu S-Pulse,Japan,,FALSE
+2002,Japan,Hitoshi Sogahata,GK,Kashima Antlers,Japan,,FALSE
+2002,Russia,Ruslan Nigmatullin,GK,Hellas Verona,Italy,Serie A,TRUE
+2002,Russia,Yuri Kovtun,DF,Spartak Moscow,Russia,,FALSE
+2002,Russia,Yuriy Nikiforov,DF,PSV Eindhoven,Netherlands,,FALSE
+2002,Russia,Alexey Smertin,MF,Bordeaux,France,Ligue 1,TRUE
+2002,Russia,Andrei Solomatin,DF,CSKA Moscow,Russia,,FALSE
+2002,Russia,Igor Semshov,MF,Torpedo Moscow,Russia,,FALSE
+2002,Russia,Viktor Onopko (c),DF,Oviedo,Spain,,FALSE
+2002,Russia,Valery Karpin,MF,Celta Vigo,Spain,La Liga,TRUE
+2002,Russia,Yegor Titov,MF,Spartak Moscow,Russia,,FALSE
+2002,Russia,Aleksandr Mostovoi,MF,Celta Vigo,Spain,La Liga,TRUE
+2002,Russia,Vladimir Beschastnykh,FW,Spartak Moscow,Russia,,FALSE
+2002,Russia,Stanislav Cherchesov,GK,Tirol Innsbruck,Austria,,FALSE
+2002,Russia,Vyacheslav Dayev,DF,CSKA Moscow,Russia,,FALSE
+2002,Russia,Igor Chugainov,DF,Uralan Elista,Russia,,FALSE
+2002,Russia,Dmitri Alenichev,MF,Porto,Portugal,,FALSE
+2002,Russia,Aleksandr Kerzhakov,FW,Zenit Saint Petersburg,Russia,,FALSE
+2002,Russia,Sergei Semak,MF,CSKA Moscow,Russia,,FALSE
+2002,Russia,Dmitri Sennikov,DF,Lokomotiv Moscow,Russia,,FALSE
+2002,Russia,Ruslan Pimenov,FW,Lokomotiv Moscow,Russia,,FALSE
+2002,Russia,Marat Izmailov,MF,Lokomotiv Moscow,Russia,,FALSE
+2002,Russia,Dmitri Khokhlov,MF,Real Sociedad,Spain,La Liga,TRUE
+2002,Russia,Dmitri Sychev,FW,Spartak Moscow,Russia,,FALSE
+2002,Russia,Aleksandr Filimonov,GK,Uralan Elista,Russia,,FALSE
+2002,Tunisia,Ali Boumnijel,GK,Bastia,France,Ligue 1,TRUE
+2002,Tunisia,Khaled Badra (c),DF,Espérance de Tunis,Tunisia,,FALSE
+2002,Tunisia,Zoubeir Baya,MF,Beşiktaş,Turkey,,FALSE
+2002,Tunisia,Mohamed Mkacher,DF,Étoile du Sahel,Tunisia,,FALSE
+2002,Tunisia,Ziad Jaziri,FW,Étoile du Sahel,Tunisia,,FALSE
+2002,Tunisia,Hatem Trabelsi,DF,Ajax,Netherlands,,FALSE
+2002,Tunisia,Imed Mhedhebi,FW,Genoa,Italy,,FALSE
+2002,Tunisia,Hassen Gabsi,MF,Genoa,Italy,,FALSE
+2002,Tunisia,Riadh Jelassi,FW,Club Africain,Tunisia,,FALSE
+2002,Tunisia,Kaies Ghodhbane,MF,Étoile du Sahel,Tunisia,,FALSE
+2002,Tunisia,Adel Sellimi,FW,SC Freiburg,Germany,Bundesliga,TRUE
+2002,Tunisia,Raouf Bouzaiene,DF,Genoa,Italy,,FALSE
+2002,Tunisia,Riadh Bouazizi,MF,Bursaspor,Turkey,,FALSE
+2002,Tunisia,Hamdi Marzouki,DF,Club Africain,Tunisia,,FALSE
+2002,Tunisia,Radhi Jaïdi,DF,Espérance de Tunis,Tunisia,,FALSE
+2002,Tunisia,Hassen Bejaoui,GK,Bizertin,Tunisia,,FALSE
+2002,Tunisia,Tarek Thabet,DF,Espérance de Tunis,Tunisia,,FALSE
+2002,Tunisia,Selim Benachour,MF,Martigues,France,,FALSE
+2002,Tunisia,Emir Mkademi,DF,Étoile du Sahel,Tunisia,,FALSE
+2002,Tunisia,Ali Zitouni,FW,Espérance de Tunis,Tunisia,,FALSE
+2002,Tunisia,Mourad Melki,MF,Espérance de Tunis,Tunisia,,FALSE
+2002,Tunisia,Ahmed El-Jaouachi,GK,Monastir,Tunisia,,FALSE
+2002,Tunisia,José Clayton,DF,Espérance de Tunis,Tunisia,,FALSE
