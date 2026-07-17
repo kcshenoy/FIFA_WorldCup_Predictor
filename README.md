@@ -1,4 +1,4 @@
-# Feature Engineering Methodology: Top-5-League Count and Squad Connectivity
+# Feature Engineering Methodology
 
 ## 1. Objective
 
@@ -12,6 +12,10 @@ features:
 2. **`connectivity`** — a measure of how many squad members were also club
    teammates with one another at a top-5-league club, capturing pre-existing
    on-field familiarity within the international squad.
+3. **`population / gdp_usd / gdp_per_capita` ** — country size and economic
+   output as of each tournament.
+4. **`fifa_rank`** — official FIFA world ranking from the last release before
+   each tournament started.
 
 Both features live in `team_tournament_features.csv`, one row per
 `(tournament_id, team_id)`.
@@ -22,7 +26,9 @@ Both features live in `team_tournament_features.csv`, one row per
 |---|---|---|
 | `world_cup_top5_league_players_2002.csv` | Hand-compiled World Cup roster + club assignment, manually classified into a top-5 league (or none) | 1 row per player per tournament |
 | `team_tournament_features.csv` | Output feature table (also the base file that manual rebuilds read and patch) | 1 row per team per tournament |
-
+| `population.csv` | World Bank total population (SP.POP.TOTL), 1960–2024 (github.com/datasets/population) | 1 row per country per year |
+| `gdp.csv` | World Bank GDP in current US$ (NY.GDP.MKTP.CD), 1960–2023 (github.com/datasets/gdp) | 1 row per country per year |
+| `fifa_ranking.csv` | Historical FIFA ranking releases, Dec 1992–Sept 2024 (github.com/Dato-Futbol/fifa-ranking, | 1 row per team per release |
 Earlier work also used an automated crosswalk pipeline (`build_features.py`)
 driven by `results.csv`, `squads.csv`, `players.csv`, `player_performances.txt`,
 and `player_profiles.csv` to compute 2006–2022 automatically. Those files and
@@ -165,7 +171,25 @@ lesser-documented domestic clubs — though this does not affect their
 connectivity scores, since none of these squads had any top-5-league
 clustering regardless.
 
-## 8. Known limitations
+## 8. Economic and ranking features
+
+`add_team_features.py` reads `population.csv`,`gdp.csv`, and `fifa_ranking.csv` and appends four columns
+to `team_tournament_features.csv`: 
+`population`, `gdp_usd`, `gdp_per_capita`, and `fifa_rank`.
+
+To avoid leaking future information, each row uses only data available before
+its tournament: population and GDP take the most recent World Bank value
+published before the tournament year, and FIFA rank comes from the last
+ranking release before the tournament started. The 2026 rows use the
+latest published World Bank figures and the official June 11, 2026 ranking
+release (hardcoded in the script).
+
+Special cases: England, Scotland, and Wales are not separate countries in
+World Bank data, so each gets a fixed share of the UK total. Serbia and Montenegro 
+(WC-2006) is the sum of the World Bank's separate Serbia and Montenegro data. 
+North Korea has no published GDP, so its WC-2010 GDP and per-capita cells are empty.
+
+## 9. Known limitations
 
 - **Historical coverage**: pre-2002 World Cups are excluded because the
   underlying player-profile source used by the now-removed automated pipeline
@@ -184,3 +208,8 @@ clustering regardless.
   `team_tournament_features.csv` can currently be regenerated from scratch —
   it should be treated as a fixed table, hand-verified where noted, rather
   than the output of a rerunnable build step.
+- **FIFA ranking methodology change**: the ranking formula switched to an
+  Elo-based system in August 2018, so `fifa_rank` is internally consistent
+  within a tournament, but not one continuous methodology across the whole 2002-2026 period.
+- **UK home-nation shares**: England/Scotland/Wales population and GDP are
+  fixed proportional of UK totals, treated as constant across 2002–2026.
